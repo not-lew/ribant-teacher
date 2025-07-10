@@ -3,8 +3,8 @@ import { MessageCircle, ArrowRight } from "lucide-react";
 
 export const CTASection = () => {
   const handleWhatsAppClick = () => {
-    const phone = "5513991108230";
-    const message = "Olá Teacher Gabriel! Estou pronto para destravar meu inglês. Vamos começar?";
+    const phone = "5513988164608";
+    const message = "Olá Teacher Gabriel Ribant! Estou pronto para destravar meu inglês. Vamos começar?";
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
@@ -28,12 +28,12 @@ export const CTASection = () => {
               className="bg-white text-[#cc00cc] hover:bg-gray-100 text-xl px-12 py-8 rounded-full transition-all duration-300 hover:scale-110 shadow-2xl font-bold"
             >
               <MessageCircle className="mr-3 h-6 w-6" />
-              Falar com o Teacher no WhatsApp
+              Fale comigo no WhatsApp
               <ArrowRight className="ml-3 h-6 w-6" />
             </Button>
             
             <p className="text-sm text-white/80">
-              Resposta em até 2 horas • Primeira consulta gratuita
+              Resposta em até 2 horas
             </p>
           </div>
         </div>
