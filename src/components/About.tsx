@@ -30,7 +30,7 @@ export const About = () => {
                 <img 
                   src="/lovable-uploads/157e250b-ffdc-422f-b29b-40e1047b163f.png"
                   alt="Teacher Gabriel Ribant"
-                  className="w-full h-[600px] object-cover"
+                  className="w-full h-[600px] object-cover object-center"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#cc00cc]/10 to-transparent"></div>

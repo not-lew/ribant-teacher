@@ -4,7 +4,7 @@ import { MessageCircle, ArrowRight } from "lucide-react";
 
 export const CTASection = () => {
   const handleWhatsAppClick = () => {
-    const phone = "5511999999999"; // Replace with actual phone number
+    const phone = "551399110-8230";
     const message = "Olá Teacher Gabriel! Estou pronto para destravar meu inglês. Vamos começar?";
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');

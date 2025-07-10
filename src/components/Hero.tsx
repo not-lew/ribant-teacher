@@ -4,14 +4,14 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 
 export const Hero = () => {
   const handleWhatsAppClick = () => {
-    const phone = "5511999999999"; // Replace with actual phone number
+    const phone = "551399110-8230";
     const message = "Olá Teacher Gabriel! Gostaria de saber mais sobre as aulas de inglês.";
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50 overflow-hidden">
+    <section className="relative min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50 overflow-hidden pt-16">
       <div className="absolute inset-0 bg-gradient-to-r from-[#cc00cc]/5 to-transparent"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">

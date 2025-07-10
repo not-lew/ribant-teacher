@@ -1,4 +1,5 @@
 
+import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { HowItWorks } from "@/components/HowItWorks";
 import { Pricing } from "@/components/Pricing";
@@ -10,6 +11,7 @@ import { FloatingCTA } from "@/components/FloatingCTA";
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
+      <Header />
       <Hero />
       <HowItWorks />
       <Pricing />
