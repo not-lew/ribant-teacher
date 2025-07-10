@@ -5,7 +5,7 @@ export const Testimonials = () => {
   const testimonials = [
     {
       name: "Welton",
-      image: "/lovable-uploads/d856b9d4-f52b-41d5-9876-955e167462b5.png",
+      image: "/lovable-uploads/c5f2b63a-ecbf-4c8b-8d21-e9757ab68279",
       text: "O teacher Gabriel superou as minhas expectativas. Já havia conhecido outras escolas e professores particulares, mas o jeito dele de ensinar de uma maneira descontraída e leve me ajudou muito a conseguir evoluir o meu nível de inglês. Super recomendo a todos que quiserem aprender inglês de verdade."
     },
     {
@@ -15,12 +15,12 @@ export const Testimonials = () => {
     },
     {
       name: "Rodrigo",
-      image: "/lovable-uploads/46eff6d4-981d-48ce-bdf1-9a81a2cda333.png",
+      image: "/lovable-uploads/d856b9d4-f52b-41d5-9876-955e167462b5.png",
       text: "Gostaria de parabenizar o professor Ribant pelas aulas de inglês. A metodologia utilizada é muito eficiente, dinâmica e envolvente, o que facilita bastante o aprendizado e mantém o interesse durante toda a aula. Sinto que estou evoluindo rapidamente graças à abordagem clara e prática adotada, que consegue equilibrar teoria e prática de forma excelente. Recomendo fortemente as aulas para quem deseja realmente aprimorar o inglês com qualidade."
     },
     {
       name: "Carlos",
-      image: "/lovable-uploads/d1a25e00-baad-442e-b456-575c09ecbd57.png",
+      image: "/lovable-uploads/46eff6d4-981d-48ce-bdf1-9a81a2cda333.png",
       text: "Um ótimo professor, pontual, que não está lá só pelo dinheiro, e sim para que você aprenda, não é só seu professor, também é seu amigo que está pra te ajudar no que for possível de várias formas, atividades diversas em prol da melhoria do seu conhecimento. Eu super recomendo, e já tenho aula com ele a mais de 1 ano, e meu inglês evoluiu bastante com passar do tempo. E só tenho a agradecer."
     }
   ];
