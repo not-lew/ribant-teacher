@@ -18,7 +18,7 @@ export const FloatingCTA = () => {
   }, []);
 
   const handleWhatsAppClick = () => {
-    const phone = "551399110-8230";
+    const phone = "5513991108230";
     const message = "Olá Teacher Gabriel! Vi sua landing page e gostaria de conversar sobre as aulas.";
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
