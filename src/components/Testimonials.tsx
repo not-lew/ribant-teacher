@@ -5,7 +5,7 @@ export const Testimonials = () => {
   const testimonials = [
     {
       name: "Welton",
-      image: "/lovable-uploads/c5f2b63a-ecbf-4c8b-8d21-e9757ab68279",
+      image: "/lovable-uploads/c5f2b63a-ecbf-4c8b-8d21-e9757ab68279.png",
       text: "O teacher Gabriel superou as minhas expectativas. Já havia conhecido outras escolas e professores particulares, mas o jeito dele de ensinar de uma maneira descontraída e leve me ajudou muito a conseguir evoluir o meu nível de inglês. Super recomendo a todos que quiserem aprender inglês de verdade."
     },
     {
