@@ -8,42 +8,18 @@ export const Pricing = () => {
       name: "Plano Essencial",
       price: "R$ 600",
       frequency: "2 aulas/semana",
-      features: [
-        "2 aulas por semana (8 aulas/mês)",
-        "50 minutos por aula",
-        "Material didático incluso",
-        "Suporte via WhatsApp",
-        "Acesso a recursos extras"
-      ],
       popular: false
     },
     {
       name: "Plano Intenso",
       price: "R$ 900",
       frequency: "3 aulas/semana",
-      features: [
-        "3 aulas por semana (12 aulas/mês)",
-        "50 minutos por aula",
-        "Material didático incluso",
-        "Suporte via WhatsApp",
-        "Acesso a recursos extras",
-        "Sessões de conversação extras"
-      ],
       popular: true
     },
     {
       name: "Plano Imersivo",
       price: "R$ 1.200",
       frequency: "4 aulas/semana",
-      features: [
-        "4 aulas por semana (16 aulas/mês)",
-        "50 minutos por aula",
-        "Material didático incluso",
-        "Suporte via WhatsApp 24/7",
-        "Acesso a recursos extras",
-        "Sessões de conversação extras",
-        "Feedback semanal detalhado"
-      ],
       popular: false
     }
   ];
