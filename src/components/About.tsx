@@ -6,7 +6,7 @@ export const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
-              Sobre <span className="text-[#cc00cc]">mim</span>
+              Sobre o <span className="text-[#cc00cc]">Teacher Gabriel</span>
             </h2>
             <div className="prose prose-lg text-gray-700 leading-relaxed space-y-6">
               <p className="text-xl">
@@ -38,7 +38,7 @@ export const About = () => {
               
               <div className="absolute -top-6 -left-6 bg-[#cc00cc] text-white rounded-2xl p-4 shadow-xl animate-bounce">
                 <div className="text-center">
-                  <div className="text-2xl font-bold">+10.000</div>
+                  <div className="text-2xl font-bold">500+</div>
                   <div className="text-sm">Alunos transformados</div>
                 </div>
               </div>
