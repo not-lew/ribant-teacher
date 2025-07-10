@@ -20,8 +20,8 @@ export const Hero = () => {
               <span className="text-[#cc00cc]">comigo!</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-600 mb-6 sm:mb-8 leading-relaxed">
-              Fluência real, sem enrolação nem fórmula mágica. Aulas 100% personalizadas 
-              para brasileiros que querem falar inglês com confiança.
+              <strong>Fluência real</strong>, sem enrolação nem fórmula mágica. Aulas 100% <strong>personalizadas</strong>> 
+              para brasileiros que querem falar inglês com <strong>confiança</strong>>.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
