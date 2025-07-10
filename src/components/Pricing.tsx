@@ -49,7 +49,7 @@ export const Pricing = () => {
   ];
 
   const handleWhatsAppClick = (plan: string) => {
-    const phone = "5513991108230";
+    const phone = "5513988164608";
     const message = `Olá Teacher Gabriel! Tenho interesse no ${plan}. Gostaria de mais informações.`;
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
