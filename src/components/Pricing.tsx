@@ -49,29 +49,29 @@ export const Pricing = () => {
   ];
 
   const handleWhatsAppClick = (plan: string) => {
-    const phone = "5511999999999"; // Replace with actual phone number
+    const phone = "5513991108230";
     const message = `Olá Teacher Gabriel! Tenho interesse no ${plan}. Gostaria de mais informações.`;
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-16 sm:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+        <div className="text-center mb-12 sm:mb-16 animate-fade-in">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
             Escolha seu <span className="text-[#cc00cc]">plano</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
             Investimento que transforma sua carreira e abre portas para o mundo
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
           {plans.map((plan, index) => (
             <div 
               key={index}
-              className={`relative rounded-3xl p-8 transition-all duration-300 hover:scale-105 animate-fade-in ${
+              className={`relative rounded-3xl p-6 sm:p-8 transition-all duration-300 hover:scale-105 animate-fade-in ${
                 plan.popular 
                   ? 'bg-[#cc00cc] text-white shadow-2xl ring-4 ring-[#cc00cc]/20' 
                   : 'bg-white border-2 border-gray-200 hover:border-[#cc00cc]/30 shadow-lg'
@@ -87,26 +87,26 @@ export const Pricing = () => {
                 </div>
               )}
 
-              <div className="text-center mb-8">
-                <h3 className={`text-2xl font-bold mb-2 ${plan.popular ? 'text-white' : 'text-gray-900'}`}>
+              <div className="text-center mb-6 sm:mb-8">
+                <h3 className={`text-xl sm:text-2xl font-bold mb-2 ${plan.popular ? 'text-white' : 'text-gray-900'}`}>
                   {plan.name}
                 </h3>
-                <div className={`text-4xl font-bold mb-2 ${plan.popular ? 'text-white' : 'text-[#cc00cc]'}`}>
+                <div className={`text-3xl sm:text-4xl font-bold mb-2 ${plan.popular ? 'text-white' : 'text-[#cc00cc]'}`}>
                   {plan.price}
-                  <span className={`text-lg font-normal ${plan.popular ? 'text-white/80' : 'text-gray-600'}`}>
+                  <span className={`text-base sm:text-lg font-normal ${plan.popular ? 'text-white/80' : 'text-gray-600'}`}>
                     /mês
                   </span>
                 </div>
-                <p className={`${plan.popular ? 'text-white/80' : 'text-gray-600'}`}>
+                <p className={`text-sm sm:text-base ${plan.popular ? 'text-white/80' : 'text-gray-600'}`}>
                   {plan.frequency}
                 </p>
               </div>
 
-              <ul className="space-y-4 mb-8">
+              <ul className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
                 {plan.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="flex items-start">
-                    <Check className={`h-5 w-5 mr-3 mt-0.5 flex-shrink-0 ${plan.popular ? 'text-white' : 'text-[#cc00cc]'}`} />
-                    <span className={`${plan.popular ? 'text-white' : 'text-gray-700'}`}>
+                    <Check className={`h-4 w-4 sm:h-5 sm:w-5 mr-2 sm:mr-3 mt-0.5 flex-shrink-0 ${plan.popular ? 'text-white' : 'text-[#cc00cc]'}`} />
+                    <span className={`text-sm sm:text-base ${plan.popular ? 'text-white' : 'text-gray-700'}`}>
                       {feature}
                     </span>
                   </li>
@@ -115,13 +115,13 @@ export const Pricing = () => {
 
               <Button 
                 onClick={() => handleWhatsAppClick(plan.name)}
-                className={`w-full py-6 text-lg font-semibold rounded-xl transition-all duration-300 ${
+                className={`w-full py-4 sm:py-6 text-base sm:text-lg font-semibold rounded-xl transition-all duration-300 ${
                   plan.popular 
                     ? 'bg-white text-[#cc00cc] hover:bg-gray-100' 
                     : 'bg-[#cc00cc] text-white hover:bg-[#aa00aa]'
                 }`}
               >
-                <MessageCircle className="mr-2 h-5 w-5" />
+                <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
                 Escolher este plano
               </Button>
             </div>

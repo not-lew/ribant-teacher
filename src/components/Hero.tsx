@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { MessageCircle, Play } from "lucide-react";
 
 export const Hero = () => {
   const handleWhatsAppClick = () => {
@@ -11,54 +11,64 @@ export const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50 overflow-hidden pt-16">
-      <div className="absolute inset-0 bg-gradient-to-r from-[#cc00cc]/5 to-transparent"></div>
-      
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
-        <div className="text-center mb-8">
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4 animate-fade-in">
-            Teacher <span className="text-[#cc00cc]">Gabriel Ribant</span>
-          </h1>
-        </div>
-
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6 animate-fade-in">
-            <h2 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
-              Destrave seu inglês com o Teacher Gabriel — 
-              <span className="text-[#cc00cc]"> Fluência real, sem enrolação.</span>
-            </h2>
-            
-            <p className="text-xl text-gray-600 leading-relaxed">
-              Aulas particulares 100% personalizadas para brasileiros que querem falar inglês com confiança.
+    <section className="relative min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 flex items-center pt-20 sm:pt-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
+        <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
+          <div className="animate-fade-in order-2 lg:order-1">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight">
+              Destrave seu inglês com o{" "}
+              <span className="text-[#cc00cc]">Teacher Gabriel</span>
+            </h1>
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-600 mb-6 sm:mb-8 leading-relaxed">
+              Fluência real, sem enrolação. Aulas particulares 100% personalizadas 
+              para brasileiros que querem falar inglês com confiança.
             </p>
-
-            <div className="flex flex-col sm:flex-row gap-4">
+            
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
               <Button 
                 onClick={handleWhatsAppClick}
-                className="bg-[#cc00cc] hover:bg-[#aa00aa] text-white text-lg px-8 py-6 rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+                className="bg-[#cc00cc] hover:bg-[#aa00aa] text-white text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 rounded-full transition-all duration-300 hover:scale-105 shadow-xl font-bold"
               >
-                <MessageCircle className="mr-2 h-5 w-5" />
+                <MessageCircle className="mr-2 sm:mr-3 h-5 w-5 sm:h-6 sm:w-6" />
                 Quero fazer minha aula!
-                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+              
+              <Button 
+                variant="outline"
+                className="border-2 border-[#cc00cc] text-[#cc00cc] hover:bg-[#cc00cc] hover:text-white text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 rounded-full transition-all duration-300 font-semibold"
+              >
+                <Play className="mr-2 sm:mr-3 h-5 w-5 sm:h-6 sm:w-6" />
+                Ver como funciona
               </Button>
             </div>
+            
+            <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8 text-sm sm:text-base text-gray-600">
+              <div className="flex items-center">
+                <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
+                <span>Aulas online via Google Meet</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
+                <span>Material didático incluso</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
+                <span>Suporte via WhatsApp</span>
+              </div>
+            </div>
           </div>
-
-          <div className="relative animate-scale-in">
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
+          
+          <div className="animate-fade-in order-1 lg:order-2" style={{ animationDelay: '0.2s' }}>
+            <div className="relative">
               <img 
-                src="/lovable-uploads/d1a25e00-baad-442e-b456-575c09ecbd57.png"
-                alt="Teacher Gabriel Ribant"
-                className="w-full h-[600px] object-cover"
+                src="/lovable-uploads/157e250b-ffdc-422f-b29b-40e1047b163f.png"
+                alt="Teacher Gabriel"
+                className="w-full max-w-md sm:max-w-lg mx-auto rounded-3xl shadow-2xl"
                 loading="eager"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#cc00cc]/20 to-transparent"></div>
-            </div>
-            
-            <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-4 shadow-xl animate-bounce">
-              <div className="flex items-center space-x-2">
-                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                <span className="text-sm font-semibold text-gray-800">Disponível agora!</span>
+              <div className="absolute -bottom-4 sm:-bottom-6 -right-4 sm:-right-6 bg-white rounded-2xl p-3 sm:p-4 shadow-xl">
+                <div className="text-2xl sm:text-3xl font-bold text-[#cc00cc]">500+</div>
+                <div className="text-xs sm:text-sm text-gray-600">Alunos transformados</div>
               </div>
             </div>
           </div>
