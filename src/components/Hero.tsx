@@ -67,7 +67,7 @@ export const Hero = () => {
                 loading="eager"
               />
               <div className="absolute -bottom-4 sm:-bottom-6 -right-4 sm:-right-6 bg-white rounded-2xl p-3 sm:p-4 shadow-xl">
-                <div className="text-2xl sm:text-3xl font-bold text-[#cc00cc]">10.000+</div>
+                <div className="text-2xl sm:text-3xl font-bold text-[#cc00cc]">+10.000</div>
                 <div className="text-xs sm:text-sm text-gray-600">Alunos transformados</div>
               </div>
             </div>
