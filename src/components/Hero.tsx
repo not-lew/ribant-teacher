@@ -17,7 +17,7 @@ export const Hero = () => {
           <div className="animate-fade-in order-2 lg:order-1">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight">
               Destrave seu inglês{" "}
-              <span className="text-[#cc00cc]">comigo!</span>
+              <span className="text-[#cc00cc]">comigo!testeee</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-600 mb-6 sm:mb-8 leading-relaxed">
               Fluência real, sem enrolação nem fórmula mágica. Aulas 100% personalizadas 
