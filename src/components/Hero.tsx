@@ -47,7 +47,7 @@ export const Hero = () => {
           <div className="relative animate-scale-in">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
               <img 
-                src="/lovable-uploads/c5f2b63a-ecbf-4c8b-8d21-e9757ab68279.png"
+                src="/lovable-uploads/d1a25e00-baad-442e-b456-575c09ecbd57.png"
                 alt="Teacher Gabriel Ribant"
                 className="w-full h-[600px] object-cover"
                 loading="eager"
