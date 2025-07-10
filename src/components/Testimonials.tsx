@@ -9,7 +9,7 @@ export const Testimonials = () => {
       text: "O teacher Gabriel superou as minhas expectativas. Já havia conhecido outras escolas e professores particulares, mas o jeito dele de ensinar de uma maneira descontraída e leve me ajudou muito a conseguir evoluir o meu nível de inglês. Super recomendo a todos que quiserem aprender inglês de verdade."
     },
     {
-      name: "Valeria",
+      name: "Valéria",
       image: "/lovable-uploads/df4c03ac-2b52-4b45-baa5-9fc9af42d169.png",
       text: "Ótimo professor!!! Sempre disponível para resolver as dúvidas e leciona de uma forma divertida. Me ajudou a desenvolver muito meu inglês."
     },
@@ -30,7 +30,7 @@ export const Testimonials = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16 animate-fade-in">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-            Veja o que os <span className="text-[#cc00cc]">alunos dizem</span>
+            Veja o que os meus <span className="text-[#cc00cc]">alunos dizem</span>
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
             Resultados reais de pessoas reais que transformaram suas vidas com o inglês
