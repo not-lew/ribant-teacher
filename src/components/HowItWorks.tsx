@@ -6,12 +6,12 @@ export const HowItWorks = () => {
     {
       icon: Video,
       title: "Plataforma: Google Meet",
-      description: "Aulas online com qualidade profissional, onde você quiser."
+      description: "Aulas online ao vivo para você acessar de onde estiver."
     },
     {
       icon: Users,
       title: "Foco total em você",
-      description: "Aulas desenhadas sob medida, adaptadas ao seu nível, ritmo e objetivo."
+      description: "Aulas personalizadas. Adaptadas ao seu nível e ritmo."
     },
     {
       icon: MessageSquare,
@@ -40,10 +40,10 @@ export const HowItWorks = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16 animate-fade-in">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-            Como funcionam as <span className="text-[#cc00cc]">aulas</span>
+            Como funcionam as minhas <span className="text-[#cc00cc]">aulas</span>
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            Metodologia comprovada que já transformou a vida de centenas de alunos
+            Metodologia comprovada que já transformou a vida de milhares de alunos
           </p>
         </div>
 
