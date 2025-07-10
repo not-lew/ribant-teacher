@@ -28,7 +28,7 @@ export const About = () => {
             <div className="relative">
               <div className="rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
                 <img 
-                  src="/lovable-uploads/157e250b-ffdc-422f-b29b-40e1047b163f.png"
+                  src="/lovable-uploads/d1a25e00-baad-442e-b456-575c09ecbd57.png"
                   alt="Teacher Gabriel Ribant"
                   className="w-full h-[600px] object-cover object-center"
                   loading="lazy"
@@ -38,7 +38,7 @@ export const About = () => {
               
               <div className="absolute -top-6 -left-6 bg-[#cc00cc] text-white rounded-2xl p-4 shadow-xl animate-bounce">
                 <div className="text-center">
-                  <div className="text-2xl font-bold">1000+</div>
+                  <div className="text-2xl font-bold">500+</div>
                   <div className="text-sm">Alunos transformados</div>
                 </div>
               </div>
