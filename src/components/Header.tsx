@@ -4,7 +4,7 @@ import { MessageCircle, Instagram } from "lucide-react";
 
 export const Header = () => {
   const handleWhatsAppClick = () => {
-    const phone = "5513991108230";
+    const phone = "5513988164608";
     const message = "Olá Teacher Gabriel! Gostaria de saber mais sobre as aulas de inglês.";
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
@@ -20,7 +20,7 @@ export const Header = () => {
         <div className="flex flex-col sm:flex-row items-center justify-between h-auto sm:h-16 py-3 sm:py-0 gap-4 sm:gap-0">
           <div className="flex items-center">
             <h1 className="text-xl sm:text-2xl font-bold text-[#cc00cc]">
-              Teacher Gabriel
+              Teacher Gabriel Ribant
             </h1>
           </div>
           
