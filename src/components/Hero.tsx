@@ -45,7 +45,7 @@ export const Hero = () => {
             <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8 text-sm sm:text-base text-gray-600">
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                <span>Aulas online via Google Meet</span>
+                <span>Aulas online ao vivo </span>
               </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
