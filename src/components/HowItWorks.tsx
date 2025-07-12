@@ -47,18 +47,18 @@ export const HowItWorks = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in hover:scale-105"
+              className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in hover:scale-105"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="w-14 h-14 sm:w-16 sm:h-16 bg-[#cc00cc]/10 rounded-xl flex items-center justify-center mb-4 sm:mb-6">
-                <feature.icon className="h-7 w-7 sm:h-8 sm:w-8 text-[#cc00cc]" />
+              <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-[#cc00cc]/10 rounded-lg sm:rounded-xl flex items-center justify-center mb-3 sm:mb-4 lg:mb-6">
+                <feature.icon className="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8 text-[#cc00cc]" />
               </div>
-              <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 sm:mb-4">{feature.title}</h3>
-              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{feature.description}</p>
+              <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2 sm:mb-3 lg:mb-4">{feature.title}</h3>
+              <p className="text-sm sm:text-sm lg:text-base text-gray-600 leading-relaxed">{feature.description}</p>
             </div>
           ))}
         </div>
