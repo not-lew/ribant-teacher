@@ -15,7 +15,7 @@ export const CTASection = () => {
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
           <h2 className="text-4xl md:text-6xl font-bold mb-8">
-            Pronto pra destravar seu inglês?
+            Pronto para destravar seu inglês?
           </h2>
           <p className="text-xl md:text-2xl mb-12 text-white/90 max-w-3xl mx-auto leading-relaxed">
             Não deixe o idioma ser uma barreira para seus sonhos. 
@@ -28,12 +28,12 @@ export const CTASection = () => {
               className="bg-white text-[#cc00cc] hover:bg-gray-100 text-xl px-12 py-8 rounded-full transition-all duration-300 hover:scale-110 shadow-2xl font-bold"
             >
               <MessageCircle className="mr-3 h-6 w-6" />
-              Falar com o Teacher no WhatsApp
+              Fale comigo no WhatsApp
               <ArrowRight className="ml-3 h-6 w-6" />
             </Button>
             
             <p className="text-sm text-white/80">
-              Resposta em até 2 horas • Primeira consulta gratuita
+              Resposta em até 2 horas
             </p>
           </div>
         </div>
