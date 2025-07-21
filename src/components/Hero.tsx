@@ -33,13 +33,6 @@ export const Hero = () => {
                 Quero agendar minha aula!
               </Button>
               
-              <Button 
-                variant="outline"
-                className="border-2 border-[#cc00cc] text-[#cc00cc] hover:bg-[#cc00cc] hover:text-white text-sm sm:text-base lg:text-lg px-4 sm:px-6 lg:px-8 py-3 sm:py-4 lg:py-6 rounded-full transition-all duration-300 font-semibold w-full sm:w-auto"
-              >
-                <Play className="mr-2 h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6" />
-                Ver como funciona
-              </Button>
             </div>
             
             <div className="mt-6 sm:mt-8 lg:mt-12 grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-4 text-xs sm:text-sm lg:text-base text-gray-600">
