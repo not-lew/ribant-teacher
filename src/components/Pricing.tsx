@@ -6,7 +6,7 @@ export const Pricing = () => {
   const plans = [
     {
       name: "Plano Essencial",
-      price: "R$ 750",
+      price: "R$ 800",
       frequency: "2 aulas/semana",
       features: [
         "2 aulas por semana (8 aulas/mês)",
@@ -19,7 +19,7 @@ export const Pricing = () => {
     },
     {
       name: "Plano Intenso",
-      price: "R$ 1.100",
+      price: "R$ 1.200",
       frequency: "3 aulas/semana",
       features: [
         "3 aulas por semana (12 aulas/mês)",
@@ -32,7 +32,7 @@ export const Pricing = () => {
     },
     {
       name: "Plano Imersivo",
-      price: "R$ 1.500",
+      price: "R$ 1.600",
       frequency: "4 aulas/semana",
       features: [
         "4 aulas por semana (16 aulas/mês)",
