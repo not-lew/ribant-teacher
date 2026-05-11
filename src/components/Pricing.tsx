@@ -19,7 +19,7 @@ export const Pricing = () => {
     },
     {
       name: "Plano Intenso",
-      price: "R$ 900",
+      price: "R$ 800",
       frequency: "3 aulas/semana",
       features: [
         "3 aulas por semana (12 aulas/mês)",
